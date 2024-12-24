@@ -62,4 +62,3 @@ return {
     { '<leader>L', '<C-w>q', ft = 'git', desc = 'Fugitive - Close Git log (vertical)' },
   },
 }
-
