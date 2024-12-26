@@ -49,7 +49,7 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [ ] dressing
  [ ] github-theme
  [ ] indent-blankline
- [ ]line
+ [ ] line
  [ ] onedark
  [ ] which-key
 ```
