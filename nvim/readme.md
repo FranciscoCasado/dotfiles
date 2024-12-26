@@ -26,9 +26,9 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
 
 ─ languages
  [Xj conform
- [ ] mason
+ [X] mason
  [ ] nvim-lint
- [ ] nvim-lspconfig
+ [X] nvim-lspconfig
  [ ] nvim-treesitter
 
 ─ miscellaneous
