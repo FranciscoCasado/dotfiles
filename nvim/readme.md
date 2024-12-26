@@ -11,45 +11,45 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
 [X] lazy.nvim: plugin manager
 
 ─ editing
- [ ] comment.lua
- [ ] mini.lua
- [ ] nvim-autopairs.lua
- [ ] nvim-cmp.lua
- [ ] nvim-ts-autotag.lua
- [ ] treesj.lua
- [ ] vim-unimpaired.lua
+ [ ] comment
+ [ ] mini
+ [ ] nvim-autopairs
+ [ ] nvim-cmp
+ [ ] nvim-ts-autotag
+ [ ] treesj
+ [ ] vim-unimpaired
 
 ─ git
- [X] git-blame.lua
- [X] gitsigns.lua
- [X] vim-fugitive.lua
+ [X] git-blame
+ [X] gitsigns
+ [X] vim-fugitive
 
 ─ languages
- [Xj conform.lua
- [ ] mason.lua
- [ ] nvim-lint.lua
- [ ] nvim-lspconfig.lua
- [ ] nvim-treesitter.lua
+ [Xj conform
+ [ ] mason
+ [ ] nvim-lint
+ [ ] nvim-lspconfig
+ [ ] nvim-treesitter
 
 ─ miscellaneous
- [ ] avante.lua
- [ ] codecompanion.lua
- [ ] markdown-preview.lua
- [ ] octo.lua
- [ ] zen-mode.lua
+ [ ] avante
+ [ ] codecompanion
+ [ ] markdown-preview
+ [ ] octo
+ [ ] zen-mode
 
 ─ navigation
- [ ] harpoon.lua
- [ ] hop.lua
- [ ] nvim-bqf.lua
- [ ] oil.lua
- [X] telescope.lua
+ [ ] harpoon
+ [ ] hop
+ [ ] nvim-bqf
+ [ ] oil
+ [X] telescope
 
 ─ ui
- [ ] dressing.lua
- [ ] github-theme.lua
- [ ] indent-blankline.lua
- [ ] lualine.lua
- [ ] onedark.lua
- [ ] which-key.lua
+ [ ] dressing
+ [ ] github-theme
+ [ ] indent-blankline
+ [ ]line
+ [ ] onedark
+ [ ] which-key
 ```
