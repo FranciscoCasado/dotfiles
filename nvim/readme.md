@@ -14,7 +14,7 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [ ] comment
  [ ] mini
  [ ] nvim-autopairs
- [ ] nvim-cmp
+ [X] nvim-cmp
  [ ] nvim-ts-autotag
  [ ] treesj
  [ ] vim-unimpaired
@@ -29,7 +29,7 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [X] mason
  [ ] nvim-lint
  [X] nvim-lspconfig
- [ ] nvim-treesitter
+ [X] nvim-treesitter
 
 ─ miscellaneous
  [ ] avante
@@ -50,6 +50,6 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [ ] github-theme
  [ ] indent-blankline
  [ ] line
- [ ] onedark
+ [X] andromeda
  [ ] which-key
 ```
