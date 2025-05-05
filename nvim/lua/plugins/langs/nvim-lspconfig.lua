@@ -7,6 +7,8 @@ return {
       virtual_text = true,
     })
 
+    local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
     -- Lua
     require('lspconfig').lua_ls.setup({
       capabilities = capabilities,
