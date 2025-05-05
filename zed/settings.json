@@ -10,7 +10,7 @@
   "assistant": {
     "default_model": {
       "provider": "anthropic",
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-3-7-sonnet-latest"
     },
     "version": "2"
   },
@@ -19,6 +19,7 @@
   "features": {
     "inline_completion_provider": "none"
   },
+  "file_scan_exclusions": ["**/__pycache__", "**/.DS_Store"],
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 13,
@@ -36,6 +37,15 @@
         "external": {
           "command": "python",
           "arguments": ["-m", "ruff", "format", "-"]
+        }
+      }
+    },
+    "lsp": {
+      "terraform-ls": {
+        "initialization_options": {
+          "experimentalFeatures": {
+            "prefillRequiredFields": true
+          }
         }
       }
     }
