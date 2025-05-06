@@ -23,10 +23,10 @@ return {
     })
 
     -- Python
-    require('lspconfig').ruff.setup({
-      init_options = {
-        settings = { enabled = true },
-      },
+    require('lspconfig').pyright.setup({
+      capabilities = capabilities,
+
+      filetypes = { 'python' },
     })
 
     -- Ruby
