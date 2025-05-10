@@ -29,3 +29,8 @@ require('lazy').setup('plugins', {
 })
 
 require('core.options')
+
+local telescope = require('telescope.builtin')
+vim.keymap.set('n', '<leader>nc', function()
+  telescope.find_files({ cwd = vim.fn.stdpath('config') })
+end, { desc = '[S]earch [N]eovim files' })

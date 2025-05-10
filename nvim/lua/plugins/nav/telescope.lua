@@ -25,8 +25,8 @@ return {
   end,
   keys = function()
     return {
-      { '<leader>ff', '<cmd>Telescope find_files<cr>', desc = 'Find Files' },
-      { '<leader>fg', '<cmd>Telescope live_grep<cr>', desc = 'Grep Files' },
+      { '<D-p>', '<cmd>Telescope find_files<cr>', desc = 'Find Files' },
+      { '<D-S-p>', '<cmd>Telescope live_grep<cr>', desc = 'Grep Files' },
     }
   end,
 }
