@@ -9,6 +9,17 @@ return {
 
     local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
+    -- Golang
+    require('lspconfig').gopls.setup({
+      capabilities = capabilities,
+
+      settings = {
+        gopls = {
+          staticcheck = true,
+          gofumpt = false,
+        },
+      },
+    })
     -- Lua
     require('lspconfig').lua_ls.setup({
       capabilities = capabilities,
