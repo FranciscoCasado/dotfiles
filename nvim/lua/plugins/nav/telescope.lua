@@ -10,6 +10,12 @@ return {
     local telescope = require('telescope')
 
     telescope.setup({
+      pickers = {
+        find_files = {
+          hidden = true,
+          file_ignore_patterns = { '^.git/' },
+        },
+      },
       extensions = {
         live_grep_args = {
           file_ignore_patterns = {
@@ -26,7 +32,8 @@ return {
   keys = function()
     return {
       { '<D-p>', '<cmd>Telescope find_files<cr>', desc = 'Find Files' },
-      { '<D-S-p>', '<cmd>Telescope live_grep<cr>', desc = 'Grep Files' },
+      { '<D-S-f>', '<cmd>Telescope live_grep<cr>', desc = 'Grep Files' },
+      { '<D-k>', require('telescope.builtin').lsp_definitions, desc = 'Jump to Definition' },
     }
   end,
 }

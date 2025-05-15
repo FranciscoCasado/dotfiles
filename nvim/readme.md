@@ -32,9 +32,6 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [X] nvim-treesitter
 
 ─ miscellaneous
- [ ] avante
- [ ] codecompanion
- [ ] markdown-preview
  [ ] octo
  [ ] zen-mode
 
@@ -42,14 +39,12 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [ ] harpoon
  [ ] hop
  [ ] nvim-bqf
- [ ] oil
+ [X] oil
  [X] telescope
 
 ─ ui
- [ ] dressing
- [ ] github-theme
  [ ] indent-blankline
- [ ] line
+ [X] line
  [X] andromeda
  [ ] which-key
 ```

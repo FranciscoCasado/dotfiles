@@ -20,6 +20,10 @@ return {
         },
       },
     })
+
+    -- JSON
+    require('lspconfig').jsonls.setup({})
+
     -- Lua
     require('lspconfig').lua_ls.setup({
       capabilities = capabilities,
