@@ -29,6 +29,7 @@ require('lazy').setup('plugins', {
 })
 
 require('core.options')
+require('core.keymaps')
 
 local telescope = require('telescope.builtin')
 vim.keymap.set('n', '<leader>nc', function()

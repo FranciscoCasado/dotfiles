@@ -13,7 +13,6 @@ return {
         ['<C-k>'] = cmp.mapping.select_prev_item(),
 
         ['<Tab>'] = cmp.mapping.confirm({ select = true }),
-        ['<Enter>'] = cmp.mapping.confirm({ select = true }),
       }),
 
       sources = cmp.config.sources({
