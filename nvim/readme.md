@@ -27,13 +27,11 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
 ─ languages
  [Xj conform
  [X] mason
- [ ] nvim-lint
  [X] nvim-lspconfig
  [X] nvim-treesitter
 
 ─ miscellaneous
  [ ] octo
- [ ] zen-mode
 
 ─ navigation
  [ ] harpoon
@@ -43,7 +41,6 @@ This setup mainly follows the one written by [btkramm](https://github.com/btkram
  [X] telescope
 
 ─ ui
- [ ] indent-blankline
  [X] line
  [X] andromeda
  [ ] which-key
