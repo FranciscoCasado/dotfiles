@@ -38,7 +38,7 @@ return {
       lualine_z = {},
     },
 
-    options = { section_separators = '', component_separators = '' },
+    options = { section_separators = '', component_separators = '', theme = 'codedark' },
 
     extensions = { fugitive_extension, 'quickfix' },
   },
