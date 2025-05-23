@@ -15,12 +15,22 @@ keymap('n', '<C-k>', '<C-w>k', { desc = 'Move cursor to the window above' })
 keymap('n', '<C-l>', '<C-w>l', { desc = 'Move cursor to the right window' })
 
 keymap('n', ',v', ':vsplit<CR>', { desc = 'Split window vertically' })
-keymap('n', ',h', ':split<CR>', { desc = 'Split window horizontally' })
+keymap('n', ',x', ':split<CR>', { desc = 'Split window horizontally' })
 
 -- Jumping
 
 keymap('n', '<C-o>', '<C-o>zz', { desc = 'Jump backwards and center' })
 keymap('n', '<C-i>', '<C-i>zz', { desc = 'Jump forward and center' })
+
+-- Searching
+
+keymap('n', '#', '#zz', { desc = 'Search - Word under cursor backward' })
+keymap('n', '*', '*zz', { desc = 'Search - Word under cursor forward' })
+
+keymap('n', 'N', 'Nzz', { desc = 'Search - Previous result' })
+keymap('n', 'n', 'nzz', { desc = 'Search - Next result' })
+
+keymap('n', '<ESC>', ':noh<CR>', { desc = 'Search - Clear' })
 
 -- Indentation
 
