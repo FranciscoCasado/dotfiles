@@ -32,7 +32,7 @@ return {
   keys = function()
     return {
       { '<D-p>', '<cmd>Telescope find_files<cr>', desc = 'Find Files' },
-      { '<D-S-f>', '<cmd>Telescope live_grep<cr>', desc = 'Grep Files' },
+      { '<D-S-f>', '<cmd>Telescope live_grep_args<cr>', desc = 'Grep Files' },
       { '<D-k>', require('telescope.builtin').lsp_definitions, desc = 'Jump to Definition' },
     }
   end,
