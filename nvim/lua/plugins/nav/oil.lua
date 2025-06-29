@@ -15,7 +15,6 @@ return {
 
       ['h'] = 'actions.parent',
       ['l'] = 'actions.select',
-      ['<D-l>'] = 'actions.preview',
 
       ['<Esc>'] = 'actions.close',
       ['q'] = 'actions.close',
@@ -31,6 +30,10 @@ return {
       function()
         if vim.bo.filetype ~= 'oil' then
           require('oil').open_float()
+
+          vim.defer_fn(function()
+            require('oil').open_preview()
+          end, 100)
         end
       end,
       desc = 'Oil - Open',
