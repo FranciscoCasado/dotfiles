@@ -8,6 +8,7 @@ return {
       formatters_by_ft = {
         go = { 'gofmt' },
         html = { 'prettierd' },
+        helm = { 'helm_ls' },
         json = { 'prettierd' },
         lua = { 'stylua' },
         python = { 'ruff_fix', 'ruff_format', 'ruff_organize_imports' },
