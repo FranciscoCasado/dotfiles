@@ -10,7 +10,7 @@ return {
     local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
     -- Golang
-    require('lspconfig').gopls.setup({
+    vim.lsp.config('gopls', {
       capabilities = capabilities,
 
       settings = {
@@ -22,10 +22,10 @@ return {
     })
 
     -- JSON
-    require('lspconfig').jsonls.setup({})
+    vim.lsp.config('jsonls', {})
 
     -- Lua
-    require('lspconfig').lua_ls.setup({
+    vim.lsp.config('lua_ls', {
       capabilities = capabilities,
 
       settings = {
@@ -38,14 +38,14 @@ return {
     })
 
     -- Python
-    require('lspconfig').pyright.setup({
+    vim.lsp.config('pyright', {
       capabilities = capabilities,
 
       filetypes = { 'python' },
     })
 
     -- Ruby
-    require('lspconfig').ruby_lsp.setup({
+    vim.lsp.config('ruby_lsp', {
       init_options = {
         formatter = 'standard',
         linters = { 'standard' },
@@ -53,6 +53,6 @@ return {
     })
 
     -- TOML
-    require('lspconfig').taplo.setup({})
+    vim.lsp.config('taplo', {})
   end,
 }
