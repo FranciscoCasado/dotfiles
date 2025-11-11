@@ -9,3 +9,6 @@ brew install pnpm
 brew install ripgrep
 brew install stow
 brew install uv
+
+## Font
+brew install --cask font-fira-code-nerd-font
