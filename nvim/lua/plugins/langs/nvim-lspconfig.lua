@@ -38,7 +38,7 @@ return {
     })
 
     -- Python
-    vim.lsp.config('pyright', {
+    vim.lsp.config('mypy', {
       capabilities = capabilities,
 
       filetypes = { 'python' },
