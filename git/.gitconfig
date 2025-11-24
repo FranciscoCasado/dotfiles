@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Francisco Casado
+	email = hola@franciscocasado.cl
+
+[includeIf "gitdir:~/ws/f/"]
+  path = ~/ws/f/.gitconfig
+
+[url "gh:FranciscoCasado/"]
+insteadOf = git@github.com:FranciscoCasado/
+
+[url "gh_fintual:fintual/"]
+insteadOf =git@github.com:fintual/
+
+[push]
+	autoSetupRemote = true

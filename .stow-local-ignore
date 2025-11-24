@@ -2,6 +2,7 @@
 
 \.git
 \.gitiginore
+git
 
 .*\.sh
 

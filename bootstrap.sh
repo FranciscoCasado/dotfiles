@@ -4,5 +4,8 @@
 # Core apps
 sh install_apps.sh
 
-# Stow
+# Stow apps config
 stow -t ~/.config .
+
+# Stow git config
+stow -t ~ git
