@@ -5,4 +5,4 @@
 sh install_apps.sh
 
 # Stow
-stow -t ~/.config --ignore=.sh .
+stow -t ~/.config .

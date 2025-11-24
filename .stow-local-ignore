@@ -1,0 +1,8 @@
+# Remember: stow ignores receive Perl regex
+
+\.git
+\.gitiginore
+
+.*\.sh
+
+^README.*
