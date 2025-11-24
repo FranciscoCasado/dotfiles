@@ -41,6 +41,10 @@ keymap('v', '>', '>gv', { desc = 'Increase indent' })
 
 keymap('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'LSP - Rename' })
 
+-- Lazy
+
+keymap('n', '<leader>lu', ':Lazy update<CR>', { desc = 'Lazy Update'})
+
 -- Write, quit, reload
 keymap('n', '<D-s>', ':w<CR>', { desc = 'Write' })
 keymap('i', '<D-s>', '<Esc>:w<CR>', { desc = 'Write' })
