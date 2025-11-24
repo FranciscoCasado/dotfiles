@@ -2,8 +2,10 @@
 
 \.git
 \.gitiginore
-git
 
 .*\.sh
 
 ^README.*
+
+# Packages that are stowed separately
+git
