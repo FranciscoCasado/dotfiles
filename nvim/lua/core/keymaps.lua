@@ -32,6 +32,10 @@ keymap('n', 'n', 'nzz', { desc = 'Search - Next result' })
 
 keymap('n', '<ESC>', ':noh<CR>', { desc = 'Search - Clear' })
 
+-- Selection
+
+keymap('n', '<D-a>', 'ggVG', { desc = 'Select All'})
+
 -- Indentation
 
 keymap('v', '<', '<gv', { desc = 'Decrease indent' })
