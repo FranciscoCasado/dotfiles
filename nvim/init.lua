@@ -31,7 +31,3 @@ require('lazy').setup('plugins', {
 require('core.options')
 require('core.keymaps')
 
-local telescope = require('telescope.builtin')
-vim.keymap.set('n', '<leader>nc', function()
-  telescope.find_files({ cwd = vim.fn.stdpath('config') })
-end, { desc = 'Search [N]eovim [C]onfig files' })

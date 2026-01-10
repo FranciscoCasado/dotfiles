@@ -39,14 +39,20 @@ return {
         },
       },
     })
+
     telescope.load_extension('fzf')
     telescope.load_extension('live_grep_args')
+
+
   end,
   keys = function()
+    local builtin = require('telescope.builtin')
+
     return {
       { '<D-p>', '<cmd>Telescope find_files<cr>', desc = 'Find Files' },
       { '<D-S-f>', '<cmd>Telescope live_grep_args<cr>', desc = 'Grep Files' },
-      { '<D-k>', require('telescope.builtin').lsp_definitions, desc = 'Jump to Definition' },
+      { '<D-k>', builtin.lsp_definitions, desc = 'Jump to Definition' },
+      { '<leader>nc', function() builtin.find_files( { cwd = vim.fn.stdpath('config')}) end, desc = 'Search [N]eovim [C]onfig files' },
     }
   end,
 }
