@@ -52,3 +52,7 @@ keymap('n', '<leader>lu', ':Lazy update<CR>', { desc = 'Lazy Update'})
 -- Write, quit, reload
 keymap('n', '<D-s>', ':w<CR>', { desc = 'Write' })
 keymap('i', '<D-s>', '<Esc>:w<CR>', { desc = 'Write' })
+
+-- Lua Fun Stuff
+keymap("n", "<leader>x", "<cmd>.lua<CR>", { desc = "Execute the current line" })
+keymap("n", "<leader><leader>x", "<cmd>source %<CR>", { desc = "Execute the current file" })

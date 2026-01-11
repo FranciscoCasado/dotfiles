@@ -4,16 +4,7 @@
 # Core apps
 sh install_apps.sh
 
-stow -t ~ */
+stow -t ~/.config config/
 
-# Directory structure:
-# dotfiles/
-#   nvim/.config/nvim/init.lua
-#   zsh/.zshrc
-#   git/.gitconfig
-
-# Creates:
-# ~/.config/nvim/init.lua -> dotfiles/nvim/.config/nvim/init.lua
-# ~/.zshrc -> dotfiles/zsh/.zshrc
-# ~/.gitconfig -> dotfiles/git/.gitconfig
+stow -t ~ git claude
 
