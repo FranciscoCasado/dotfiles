@@ -12,5 +12,7 @@ brew install stow
 brew install uv
 brew install watch
 
+brew install yazibrew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf resvg imagemagick
+
 ## Font
 brew install --cask font-fira-code-nerd-font
