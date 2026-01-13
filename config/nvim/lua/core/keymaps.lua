@@ -36,6 +36,9 @@ keymap('n', '<ESC>', ':noh<CR>', { desc = 'Search - Clear' })
 
 keymap('n', '<D-a>', 'ggVG', { desc = 'Select All'})
 
+-- Files
+keymap('n', '<leader>fp',':let @+ = expand(\'%\')<CR>', { desc = 'Yank relative [F]ile [P]ath'})
+
 -- Indentation
 
 keymap('v', '<', '<gv', { desc = 'Decrease indent' })
