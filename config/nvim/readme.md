@@ -1,47 +1,14 @@
 # Summary
 
-*-- work in progress --*
+*-- Stable --*
 
-This setup mainly follows the one written by [btkramm](https://github.com/btkramm/dotfiles/tree/main/config/nvim). Why? Because it's not bloated.
+This setup mainly follows the one written by [btkramm](https://github.com/btkramm/dotfiles/tree/main/config/nvim), just because it's not bloated.
 
 
-### Plugins
+## LSP
 
-```
-[X] lazy.nvim: plugin manager
+Some LSPs don't work quite right: 
+- Python: "ok" with Pyright
+- Lua: not working "ok" enough, don't know how to fix it yet
+- Ruby: kill me plx
 
-─ editing
- [ ] comment
- [ ] mini
- [ ] nvim-autopairs
- [X] nvim-cmp
- [ ] nvim-ts-autotag
- [ ] treesj
- [ ] vim-unimpaired
-
-─ git
- [X] git-blame
- [X] gitsigns
- [X] vim-fugitive
-
-─ languages
- [Xj conform
- [X] mason
- [X] nvim-lspconfig
- [X] nvim-treesitter
-
-─ miscellaneous
- [ ] octo
-
-─ navigation
- [ ] harpoon
- [ ] hop
- [ ] nvim-bqf
- [X] oil
- [X] telescope
-
-─ ui
- [X] line
- [X] andromeda
- [ ] which-key
-```
