@@ -1,0 +1,14 @@
+alias c=claude
+alias n=nvim
+alias npm=pnpm
+alias npx=pnpx
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+alias tf=terraform
+alias venv="source .venv/bin/activate"
+alias y=yazi
+
+## cd shortcuts
+alias ga="cd ~/ws/a"
+alias gf="cd ~/ws/f"
+alias gp="cd ~/ws/p"
+

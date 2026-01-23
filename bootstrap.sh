@@ -6,5 +6,5 @@ sh install_apps.sh
 
 stow -t ~/.config config/
 
-stow -t ~ git claude
+stow -t ~ git claude zsh
 
