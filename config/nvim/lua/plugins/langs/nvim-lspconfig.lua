@@ -10,6 +10,7 @@ return {
     local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
     -- Golang
+
     vim.lsp.config('gopls', {
       capabilities = capabilities,
 
@@ -22,6 +23,7 @@ return {
     })
 
     -- JSON
+
     vim.lsp.config('jsonls', {})
 
     -- Lua
@@ -38,18 +40,10 @@ return {
     })
 
     -- Python
-    vim.lsp.config('pyright', {
+
+    vim.lsp.config('ty', {
       capabilities = capabilities,
-
       filetypes = { 'python' },
-    })
-
-    -- Ruby
-    vim.lsp.config('ruby_lsp', {
-      init_options = {
-        formatter = 'standard',
-        linters = { 'standard' },
-      },
     })
 
     -- TOML
