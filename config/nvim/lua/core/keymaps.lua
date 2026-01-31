@@ -17,6 +17,10 @@ keymap('n', '<C-l>', '<C-w>l', { desc = 'Move cursor to the right window' })
 keymap('n', ',v', ':vsplit<CR>', { desc = 'Split window vertically' })
 keymap('n', ',x', ':split<CR>', { desc = 'Split window horizontally' })
 
+-- Display
+
+keymap('n', '<C-z>', ':set wrap!<CR>', { desc = 'Toggle word wrap' })
+
 -- Jumping
 
 keymap('n', '<C-o>', '<C-o>zz', { desc = 'Jump backwards and center' })
@@ -46,7 +50,8 @@ keymap('v', '>', '>gv', { desc = 'Increase indent' })
 
 -- LSP
 
-keymap('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'LSP - Rename' })
+keymap('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'LSP - [R]e[N]ame' })
+keymap('n', 'gd', vim.lsp.buf.definition, { desc = 'LSP - [G]o to [D]efinition' })
 
 -- Lazy
 
