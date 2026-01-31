@@ -64,6 +64,7 @@ if [ "$install_dev" = true ]; then
     colima \
     docker \
     docker-compose \
+    docker-buildx \
     mise \
     pnpm \
     uv \
