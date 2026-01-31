@@ -11,11 +11,14 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-## Completions
+# Completions
 autoload -Uz compinit && compinit
 
 ## Aliases
 [ -f ~/.aliases ] && source ~/.aliases
 
-## Ruby
+# Ruby
 eval "$(rbenv init -)"
+
+# z init
+eval "$(zoxide init zsh)"

@@ -7,9 +7,5 @@ alias tf=terraform
 alias venv="source .venv/bin/activate"
 alias y=yazi
 
-## cd shortcuts
-alias cda="cd ~/ws/a"
-alias cdf="cd ~/ws/f"
-alias cdp="cd ~/ws/p"
-alias cdd="cd ~/ws/p/dotfiles"
-
+# zoxide as cd
+alias cd=z

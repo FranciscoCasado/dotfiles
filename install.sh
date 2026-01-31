@@ -92,6 +92,7 @@ if [ "$install_ui" = true ]; then
     font-fira-code-nerd-font \
     neovim \
     yazi \
+    zoxide \
     ffmpeg \
     resvg \
     imagemagick \
