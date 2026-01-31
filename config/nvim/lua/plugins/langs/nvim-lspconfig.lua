@@ -46,6 +46,15 @@ return {
       filetypes = { 'python' },
     })
 
+    -- Ruby
+
+    vim.lsp.config('ruby_lsp', {
+      capabilities = capabilities,
+      mason = false,
+    })
+
+    vim.lsp.enable('ruby_lsp')
+
     -- TOML
     vim.lsp.config('taplo', {})
   end,
